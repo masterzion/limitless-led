@@ -5,7 +5,8 @@ A Ruby client library for controlling the [LimitlessLED v3.0 RGBW color-changing
 based on the official [LimitlessLED API documentation](http://www.limitlessled.com/dev/).
 
 ## Usage
-
+    require 'limitless_led'
+    
     bridge = LimitlessLed::Bridge.new(host: '192.168.1.100', port: 8899)
     
     bridge.all_on        # all lights are on
